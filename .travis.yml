@@ -15,6 +15,7 @@ env:
     # travis encrypt -r MacPython/matplotlib-wheels \
     #     WHEELHOUSE_UPLOADER_SECRET=<the api key>
     # Matplotlib commit when running from master branch
+    - DOCKER_TEST_IMAGE=multibuild/xenial_aarch64
     - DAILY_COMMIT=master
     - MB_ML_VER=2014
 
