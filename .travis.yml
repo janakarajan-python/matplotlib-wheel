@@ -37,23 +37,30 @@ jobs:
         - NP_BUILD_DEP=1.16
         - NP_TEST_DEP=1.16
         - PLAT=aarch64
+          #- os: linux
+          #arch: arm64-graviton2
+          #dist: focal
+          #virt: lxd
+          #group: edge
+          #env:
+          #- MB_PYTHON_VERSION=3.8
+          #- NP_BUILD_DEP=1.16
+          #- NP_TEST_DEP=1.16
+          #- PLAT=aarch64
+          #- os: linux
+          #arch: arm64-graviton2
+          #dist: focal
+          #virt: lxd
+          #group: edge
+          #env:
+          #- MB_PYTHON_VERSION=3.9
+          #- NP_BUILD_DEP=1.16
+          #- NP_TEST_DEP=1.16
+          #- PLAT=aarch64
     - os: linux
-      arch: arm64-graviton2
-      dist: focal
-      virt: lxd
-      group: edge
+      arch: arm64
       env:
-        - MB_PYTHON_VERSION=3.8
-        - NP_BUILD_DEP=1.16
-        - NP_TEST_DEP=1.16
-        - PLAT=aarch64
-    - os: linux
-      arch: arm64-graviton2
-      dist: focal
-      virt: lxd
-      group: edge
-      env:
-        - MB_PYTHON_VERSION=3.9
+        - MB_PYTHON_VERSION=3.7
         - NP_BUILD_DEP=1.16
         - NP_TEST_DEP=1.16
         - PLAT=aarch64
