@@ -16,6 +16,7 @@ env:
     #     WHEELHOUSE_UPLOADER_SECRET=<the api key>
     # Matplotlib commit when running from master branch
     - DAILY_COMMIT=master
+    - MB_ML_VER=2014
 
 language: python
 # Default Python version is usually 2.7
